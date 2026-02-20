@@ -112,3 +112,63 @@ PR을 하시기 전에 무조건 `sync`를 진행한 이후에 요청을 보냅�
 또한 PR 중에서 파일이 겹치는 경우에는 PR을 요청하지 마세요.
 
 ---
+
+## Requirements
+
+### Core (Data Handling)
+
+- **numpy** — version 1.26 or higher  
+- **pandas** — version 2.1 or higher  
+
+---
+
+### Visualization
+
+- **matplotlib** — version 3.8 or higher  
+- **seaborn** — version 0.13 or higher  
+
+---
+
+###  Statistics & Scientific Computing
+
+- **scipy** — version 1.11 or higher  
+
+---
+
+### Geospatial Analysis
+
+- **geopandas** — version 0.14 or higher  
+- **shapely** — version 2.0 or higher  
+- **pyproj** — version 3.6 or higher  
+- **fiona** — version 1.9 or higher  
+
+---
+### Machine Learning
+
+- **scikit-learn** — version 1.4 or higher  
+
+---
+
+### Notebook Environment
+
+- **jupyterlab** — version 4.1 or higher  
+- **ipykernel** — version 6.29 or higher  
+- **ipython** — version 8.20 or higher  
+
+---
+
+## pip installation
+### Using pip
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### Using conda
+```bash
+conda create -n eda_env python=3.12
+conda activate eda_env
+conda install geopandas
+pip install -r requirements.txt
+```
